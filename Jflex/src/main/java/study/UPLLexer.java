@@ -752,12 +752,12 @@ class UPLLexer implements java_cup.runtime.Scanner {
         switch (zzAction < 0 ? zzAction : ZZ_ACTION[zzAction]) {
           case 1:
             { System.err.println("Lexical error at line " + (yyline+1) + ", column " + (yycolumn+1) + ": " + yytext());
-    return symbol(sym.UNKNOWN, yytext()); // Trả v�? UNKNOWN thay vì null để tránh lỗi NullPointerException
+    return symbol(sym.UNKNOWN, yytext()); // Tráº£ vá»? UNKNOWN thay vÃ¬ null Ä‘á»ƒ trÃ¡nh lá»—i NullPointerException
             }
           // fall through
           case 30: break;
           case 2:
-            { /* B�? qua */
+            { /* Bá»? qua */
             }
           // fall through
           case 31: break;
